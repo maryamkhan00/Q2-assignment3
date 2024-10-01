@@ -2,26 +2,84 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+
+.header-buttons{
+  height: 75px;
+  padding: 20px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  font-size: 20px;
+  font-weight: 600;
+  gap: 50px;
+  background-color: rgb(188, 160, 211);
+  color: rgb(146, 29, 29);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.parentDiv {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: black;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.child1 {
+  width: 100%;
+  margin: 20px;
+  font-size: 60px;
+  font-weight: 900px;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.name {
+  color: rgba(207, 4, 4, 0.678);
+}
+
+.child2{
+  margin: 40px;
+  padding: 40px;
+}
+
+.profile{
+  width: 450px;
+  height: 300px;
+}
+
+.contactUs {
+  padding: 111px;
+  font-size: 80px;
+  font-weight: 900px;
+  color: rgba(255, 220, 220, 0.678);
+  background-color: rgb(69, 31, 105);
+}
+
+.About {
+  padding: 111px;
+  font-size: 80px;
+  font-weight: 900px;
+  color: rgba(255, 220, 220, 0.678);
+  background-color: rgb(69, 31, 105);
+}
+
+.Portfolio{
+  padding: 20px;
+  font-size: 40px;
+  font-weight: 300px;
+  color: rgba(240, 228, 250, 0.678);
+  background-color: rgb(54, 7, 73);
+}
+
+.Footer{
+  height: 70px;
+  padding-right: 20px;
+  background-color: rgb(188, 160, 211);
+  color: rgb(146, 29, 29);
+  font-size: 20px;
+  font-weight: 600;
+  text-align: right;
+}
+
+.point{
+  color: bisque;
 }
