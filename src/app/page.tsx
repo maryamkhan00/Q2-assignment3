@@ -11,7 +11,7 @@ export default function home() {
         </div>
         <div className="child2"> 
           <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbqG3NZuUc1H7Ks2mXRNuP7Ka37XSrM3Etg&s"
-        alt="profile" width={450} height={300}></Image>
+        alt="profile" width={450} height={300} />
        </div>
       </div>
   )};
