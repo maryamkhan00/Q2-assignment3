@@ -1,6 +1,6 @@
-export default function Portfolio(){
+export default function portfolio(){
     return (
-            <div className="Portfolio">
+            <div className="portfolio">
                 <ul>
                     <li><span className="point">Skills:</span> I'm starting out as a front end developer and 
                     I excel in TypeScript, HTML and CSS</li>

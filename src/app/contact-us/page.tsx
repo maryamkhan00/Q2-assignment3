@@ -1,7 +1,7 @@
-export default function Contact(){
+export default function contact(){
     return (
             <div>
-            <h1 className="contactUs">You can contact me through my student ID 00142635 </h1>
+            <h1 className="contactus">You can contact me through my student ID 00142635 </h1>
             </div>
     )
 }
