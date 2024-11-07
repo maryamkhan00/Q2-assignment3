@@ -1,10 +1,5 @@
-import Header from "@/components/header"
-import Footer from "@/components/footer"
-
 export default function Portfolio(){
     return (
-        <div>
-            <Header/>
             <div className="Portfolio">
                 <ul>
                     <li><span className="point">Skills:</span> I'm starting out as a front end developer and 
@@ -17,7 +12,5 @@ export default function Portfolio(){
                     </li>
                 </ul>
             </div>
-            <Footer/>
-        </div>
     )
 }
