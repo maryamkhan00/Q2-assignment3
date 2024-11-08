@@ -82,7 +82,7 @@
 }
 
 
-@media (max-width: 770px) {
+@media (max-width: 800px) {
   .header-buttons {
     gap: 20px;
     font-size: 13px;
@@ -92,7 +92,7 @@
 
   .parentDiv {
     display: flex;
-    flex-direction: column;
+    height: 100%;
   }
 
   .child1 {
