@@ -85,14 +85,14 @@
 @media (max-width: 770px) {
   .header-buttons {
     gap: 20px;
-    font-size: 25px;
+    font-size: 17px;
     align-items: left;
     justify-content: left;
   }
 
   .parentDiv {
     display: flex;
-    min-height: 100;
+    min-height: 400px;
   }
 
   .child1 {
