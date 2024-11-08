@@ -89,7 +89,7 @@
   }
 
   .parentDiv {
-    flex-direction: column;
+    display: flex;
   }
 
   .child1 {
@@ -98,7 +98,7 @@
 
   .child2 {
     margin: 20px 0;
-    text-align: center;
+    align-self: right;
   }
 
   .contactus,.about,.portfolio {
