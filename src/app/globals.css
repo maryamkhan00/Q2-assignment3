@@ -92,7 +92,7 @@
 
   .parentDiv {
     display: flex;
-    min-height: max-content;
+    min-height: 100%;
   }
 
   .child1 {
