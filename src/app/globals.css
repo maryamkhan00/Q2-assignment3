@@ -81,6 +81,12 @@
   color: bisque;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
 
 @media (max-width: 800px) {
   .header-buttons {
@@ -103,7 +109,6 @@
   .parentDiv {
     display: flex;
     flex-direction: column;
-    min-height: 800px;
   }
 
   .contactus,.about,.portfolio {
