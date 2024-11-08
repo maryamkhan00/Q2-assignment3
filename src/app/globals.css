@@ -92,11 +92,12 @@
 
   .parentDiv {
     display: flex;
-    height: 100%;
+    flex-direction: column;
   }
 
   .child1 {
     font-size: 28px;
+    align-self: left;
   }
 
   .child2 {
@@ -107,6 +108,7 @@
   .contactus,.about,.portfolio {
     padding: 30px;
     font-size: 24px;
+    flex-direction: column;
   }
 
   .Footer {
