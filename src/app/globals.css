@@ -81,3 +81,40 @@
   color: bisque;
 }
 
+
+@media (max-width: 770px) {
+  .header-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .header-buttons li {
+    font-size: 18px;
+  }
+
+  .parentDiv {
+    flex-direction: column;
+  }
+
+  .child1 {
+    font-size: 1.8rem;
+  }
+
+  .child2 {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .contactus,
+  .about,
+  .portfolio {
+    padding: 30px;
+    font-size: 1.5rem;
+  }
+
+  .Footer {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
