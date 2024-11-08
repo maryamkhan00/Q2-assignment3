@@ -98,8 +98,8 @@
     font-size: 28px;
     align-items: left;
     margin: 10px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .child2 {
@@ -107,14 +107,15 @@
     align-items: right;
   }
 
-  .portfolio, .about, .contact {
+  .portfolio, .about, .contactus {
     padding: 30px;
     font-size: 24px;
   }
 
   .about, .contact {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+
   }
 
   .Footer {
