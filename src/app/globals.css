@@ -90,12 +90,6 @@
     justify-content: left;
   }
 
-  .parentDiv {
-    display: flex;
-    flex-direction: column;
-    min-height: auto;
-  }
-
   .child1 {
     font-size: 28px;
     align-self: left;
@@ -104,6 +98,12 @@
   .child2 {
     margin: 20px 0;
     align-self: right;
+  }
+
+  .parentDiv {
+    display: flex;
+    flex-direction: column;
+    min-height: 800px;
   }
 
   .contactus,.about,.portfolio {
