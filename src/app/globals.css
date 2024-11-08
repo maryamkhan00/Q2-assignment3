@@ -84,12 +84,7 @@
 
 @media (max-width: 770px) {
   .header-buttons {
-    flex-direction: column;
-    align-items: center;
     gap: 20px;
-  }
-
-  .header-buttons li {
     font-size: 18px;
   }
 
@@ -106,9 +101,7 @@
     text-align: center;
   }
 
-  .contactus,
-  .about,
-  .portfolio {
+  .contactus,.about,.portfolio {
     padding: 30px;
     font-size: 1.5rem;
   }
