@@ -92,7 +92,7 @@
 
   .parentDiv {
     display: flex;
-    min-height: 550px;
+    flex-direction: column;
   }
 
   .child1 {
