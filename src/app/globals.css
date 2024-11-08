@@ -92,18 +92,19 @@
 
   .parentDiv {
     display: flex;
-    padding-top: 20px;
-    padding-bottom: 20px;
   }
 
   .child1 {
     font-size: 28px;
-    align-self: left;
+    align-items: left;
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .child2 {
     margin: 20px 0;
-    align-self: right;
+    align-items: right;
   }
 
   .contactus,.about,.portfolio {
