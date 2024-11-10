@@ -82,7 +82,7 @@
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 320px),(max-height: 480px) {
   .header-buttons {
     gap: 20px;
     font-size: 13px;
