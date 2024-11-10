@@ -81,6 +81,10 @@
   color: bisque;
 }
 
+.contact-parent, .about-parent{
+  background-color: rgb(69, 31, 105);;
+}
+
 
 @media (max-width: 480px) {
   .header-buttons {
