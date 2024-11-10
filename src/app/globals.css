@@ -92,6 +92,8 @@
 
   .parentDiv {
     display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .child1 {
@@ -109,6 +111,8 @@
 
   .portfolio, .about, .contactus {
     padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-size: 24px;
   }
 
