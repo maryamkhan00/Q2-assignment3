@@ -116,3 +116,38 @@
     padding: 10px;
   }
 }
+
+@media (max-width: 760px) {
+  .header-buttons {
+    gap: 30px;
+    font-size: 21px;
+    align-items: left;
+    justify-content: left;
+  }
+
+  .parentDiv, .portfolio, .contactContainer, .aboutContainer {
+    display: flex;
+    align-items: stretch;
+  }
+
+  .child1 {
+    font-size: 32px;
+    align-items: left;
+    margin: 15px;
+  }
+
+  .child2 {
+    margin: 25px 0;
+    align-items: right;
+  }
+
+  .portfolio, .about, .contactus {
+    padding: 35px;
+    font-size: 29px;
+  }
+
+  .Footer {
+    font-size: 21px;
+    padding: 15px;
+  }
+}
